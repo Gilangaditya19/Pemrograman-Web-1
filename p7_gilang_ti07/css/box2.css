@@ -1,0 +1,48 @@
+.container1 {
+    width: 907px;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 1px solid black;
+    background-color: #90EE90;
+}
+
+.container2 {
+    float: left;
+    width: 120px; 
+    height: 120px; 
+    margin: 20px; 
+    border: 1px solid black;
+    background-color: yellow;
+}
+
+.container3 {
+    width: 730px;
+    height: 125px;
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 20px;
+    border: 1px solid black;
+    background-color: coral;
+}
+
+.container4 {
+    float: left;
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    margin: 20px;
+    border: 1px solid black;
+    background-color: yellow;
+}
+   
+.container5 {
+   width: 730px;
+    height: 125px;
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 20px;
+    border: 1px  solid black;
+    background-color: aqua;
+}
