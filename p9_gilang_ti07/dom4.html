@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Penjumlahan JS Skuy</title>
+    <script src="https://code.jquery.com/jquery-1.9.1.js"></script>
+    <script>
+        function penjumlahan(){
+            var bilangan1=document.getElementById("bilangan1").value;
+            var bilangan2=document.getElementById("bilangan2").value;
+            var hasil=parseInt(bilangan1)+parseInt(bilangan2);
+
+            document.getElementById("hasil").value=hasil
+        }
+    </script>
+</head>
+<body>
+    Bilangan ke 1 : <input type="number" id="bilangan1" onchange="penjumlahan()"><br>
+    Bilangan ke 2 : <input type="number" id="bilangan2"onchange="penjumlahan()"><br>
+    Hasil : <input type="number" id="hasil">
+</body>
+</html>
