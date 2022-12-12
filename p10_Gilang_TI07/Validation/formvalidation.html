@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>FORM</title>
+ <link rel="stylesheet" type="text/css" href="assets/main.css">
+</head>
+<body>
+<form>
+ <h4>Form Sederhana</h4>
+  <table>
+  <tr>
+   <td><label>NAMA</label></td>
+   <td>: <input type="text" id="inp_nama" name=""></td>
+  </tr>
+  <tr>
+   <td><label>EMAIL</label></td>
+   <td>: <input type="email" id="inp_ktp" name=""></td>
+  </tr>
+  <tr>
+    <td><label>Jam Keberangkatan</label></td>
+    <td>: <input type="time" id="inp_time" name=""></td>
+  </tr>
+  <tr>
+   <td><label>Tujuan Keberangkatan</label></td>
+   <td>
+    : <select onchange="Tujuan()" id="inp_tujuan">
+    <option>--PILIH TUJUAN--</option><br>
+    <option value="jkrta">Jakarta</option>
+    <option value="bgr">Bogor</option>
+    </select>
+   </td>
+  </tr>
+  <tr>
+   <td><label>KERETA</label></td>
+   <td>
+    : <select onchange="harganya()" id="kereta2">
+    <option>--PILIH KERETA--</option>
+    </select>
+   </td>
+  </tr>
+  <tr>
+   <td><label>HARGA TIKET</label></td>
+   <td>: <input type="text" id="tampil" disabled="true" name=""></td>
+  <tr>
+   <td><label>JUMLAH</label></td>
+   <td>: <input onkeyup="Total()" type="number" id="inp_jumlah" name=""></td>
+  </tr>
+  <tr>
+   <td><label>TOTAL</label></td>
+   <td>: <input type="text" id="total2" disabled="true" name=""></td>
+  </tr>
+  </table>
+  <center><input type="button" value="PESAN" onclick="pesan()" name=""></center>
+</form>
+<script type="text/javascript" src="assets/main.js"></script>
+</body>
+</html>
