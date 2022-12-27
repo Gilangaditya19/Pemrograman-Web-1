@@ -1,0 +1,84 @@
+body{
+    background-color: wheat;
+}
+
+h1 {
+    text-align: center;
+    color: blue;
+    background-color: burlywood;
+}
+
+blockquote {
+    text-align: center;
+    border: 2px dotted black;
+    background-color: gold;
+}
+
+.biasa {
+  text-align: center;
+}
+
+.gambar {
+  text-align: center;
+  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#1 {
+    width: 400px;
+}
+
+#2 {
+    width: 400px;
+}
+
+.gedein {
+    color: blue;
+    font-size: xx-large;
+    font-weight: 800;
+}
+
+.isi {
+  text-align: justify;
+}
+
+#profil h3{
+  font-size: large;
+  color: black;
+  text-align: justify;
+}
+
+.koleksi {
+    background-color: chocolate;
+    text-align: center;
+    margin-top: 500px;
+}
+
+#beternak h3{
+  color: blue;
+  text-align: justify;
+  font-size: big;
+}
+
+.promo h3 del {
+  color: red;
+}
+
+.promo h3 strong {
+  color: green;
+}
+
+.gilang {
+  color: magenta;
+  font-size: large;
+}
+
+.keren {
+  color: beige;
+}
+
+.banget {
+  color: grey;
+}
+
